@@ -1,0 +1,46 @@
+.fontSmall {
+  font-size: 0.85rem;
+}
+.user-info {
+  color: #ffffff;
+  font-size: 0.83rem;
+}
+.logoutButton {
+  display: block;
+  max-width: 8rem;
+  margin: 0 auto;
+}
+.form {
+  display: block;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+.register-page .errorMesssage {
+  animation-duration: 3.5s;
+  animation-name: message;
+  display: block;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 30rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.main-sidebar .logo {
+  animation: spin 4s linear infinite;
+}
+
+@keyframes message {
+  0% {
+    width: 20rem;
+  }
+  100% {
+    width: 30rem;
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
