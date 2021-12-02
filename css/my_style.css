@@ -22,7 +22,7 @@
   position: absolute;
   top: 4rem;
   right: 0;
-  width: 30rem;
+  width: 20rem;
   color: #ffffff;
   font-size: 0.9rem;
   font-style: italic;
@@ -30,13 +30,19 @@
 .main-sidebar .logo {
   animation: spin 4s linear infinite;
 }
+@media only screen and (max-width: 600px){
+.register-page .errorMesssage{
+  width: 20rem;
+  font-size: .8rem;
+}
+}
 
 @keyframes message {
   0% {
-    width: 20rem;
+    width: 15rem;
   }
   100% {
-    width: 30rem;
+    width: 20rem;
   }
 }
 @keyframes spin {
